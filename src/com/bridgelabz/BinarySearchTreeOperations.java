@@ -22,7 +22,6 @@ public class BinarySearchTreeOperations {
         tree.printInorder(root);
         System.out.println();
         System.out.println("Number of Nodes in binary tree :" + tree.size());
-
-
+        System.out.println("Search 63 in binary tree: " + tree.search(root, 63));
     }
 }
